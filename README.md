@@ -1,4 +1,4 @@
-# 🛡️ PhishGuard
+# PhishGuard
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Blazing Fast Edge Inference**: Sub-15ms URL analysis directly in the browser using ONNX and WASM.
 - **Multimodal Analysis**: Combines URL lexical features, raw HTML structure (CodeBERT), and visual branding (EfficientNet) for deep inspection.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧠 Architecture: The 4-Tier Cascade
+## Architecture: The 4-Tier Cascade
 
 PhishGuard uses a hierarchical approach to balance speed and accuracy. Only the most ambiguous cases reach the heavy LLM layer.
 
@@ -51,7 +51,7 @@ graph TD
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend & Edge
 - **Chrome Extension:** Manifest V3, Service Workers
@@ -73,7 +73,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 PhishGuard/
@@ -93,7 +93,7 @@ PhishGuard/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.11+
@@ -131,8 +131,5 @@ PhishGuard/
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any bugs, feature requests, or improvements.
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License.
